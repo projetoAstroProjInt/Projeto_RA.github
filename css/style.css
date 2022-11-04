@@ -24,7 +24,7 @@
 header{
     padding: 8px 0;
     background-color:#1d1e20;
-    height: 60px;
+    height: 90px;
 }
 
 .logo{
@@ -86,12 +86,12 @@ nav.menu-desktop a:hover{
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
     border-radius:5px;
-    padding: 25px;
+    padding: 50px;
     
 }
 
 .banner{
-    margin-top: 52px;
+    margin-top: 82px;
     position: relative;
     width: 100%;
     padding: 140px 0 200px 0;
@@ -144,7 +144,31 @@ footer.rodape{
     
 }
 
+.imglogo
+{
+    width: 90px;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CARROSEL */
 
 .content {
     position: relative;
