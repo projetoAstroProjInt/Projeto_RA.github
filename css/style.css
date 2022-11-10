@@ -23,7 +23,7 @@
 
 header{
     padding: 8px 0;
-    background-color:#1d1e20;
+    background-color:#2b134b;
     height: 90px;
 }
 
@@ -80,9 +80,9 @@ nav.menu-desktop a{
 
 }
 
-nav.menu-desktop a:hover{
+nav.menu-desktop a:hover {
 
-    background-color: #A3E8EB;
+    background-color: #00ff88;
     transition: background .8s;
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -96,7 +96,7 @@ nav.menu-desktop a:hover{
     position: relative;
     width: 100%;
     padding: 140px 0 200px 0;
-    background-image: url(../img/realidade-aumentada.png);
+    background: linear-gradient(#2b134b, #3A64B4, #5B2788, #219B77);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
