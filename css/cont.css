@@ -1,0 +1,26 @@
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color:#2b134b;
+    color:#00ff88 ;
+}
+
+.embrulho{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px;
+    color:#232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 2px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+    color:#00ff88 ;
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 150px;
+}

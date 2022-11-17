@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <title>R.A Verso</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cont.css">
     <link rel="icon" type="image/x-icon" href="img/MicrosoftTeams-image.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="img/logo.png">  
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
 </head>
 
 <body>
@@ -32,5 +33,49 @@
             </nav>
         </div>
     </header>
+    <div class="embrulho">
+        <form>
+            <h1>Entre em contato conosco!</h1>
+            <legend>dados do usuario</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome">
+            <br>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome">
+            <br>
+            <label for="senha">Idade:</label>
+            <input type="password" name="senha">
+            </fieldset>
+            <br><br>
+            <label for="ano">Selecione uma opção:</label>
+            <br>
+            <input type="radio" name="ano" checked>1º ano
+            <input type="radio" name="ano">2º ano
+            <input type="radio" name="ano">3º ano
+            <br><br>
+            <label for="Diversão">Selecione itens:</label>
+            <br>
+            <input type="checkbox" name="filme" checked>Filme
+            <input type="checkbox" name="serie" checked>Série
+            <input type="checkbox" name="anime" checked>Anime
+            <br><br>
+            <label for="texto">Escreva aqui:</label>
+            <br>
+            <textarea name="texto" cols="30" rows="10"></textarea>
+            <br><br>
+            <label for="itens">Selecione:</label>
+            <select name="itens">
+                <option value="" selected></option>
+                <option value="teste">Teste</option>
+                <option value="prova">Prova</option>
+                <option value="recuperação">Recuperação</option>
+                <option value="trabalho">Trabalho</option>
+            </select>
+            <br><br>
+            <input type="submit" value="enviar" name="enviar">
+            <input type="reset" value="Limpar" name="limpar">
+        </form>
+    </div>
 </body>
+
 </html>
