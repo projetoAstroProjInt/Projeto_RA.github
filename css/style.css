@@ -194,13 +194,51 @@ overflow: hidden;
 {
     background: linear-gradient(#2b134b, #5F75D2,#5F75D2, #93A2E0, #93A2E0, #93A2E0);
     position: relative;
-    height: 1000px;
+    height: 2106px;
 }
 
 .exploreH1
 {
+    padding-bottom: 65px;
     padding-left: 250px;
+    color: #93A2E0;
+    font-size: 100px;
 }
+
+.exploreH3
+{
+    color: black;
+    padding-left: 0px;
+}
+
+footer.rodape_historia{
+    position: relative;
+    top: 1043px;
+    width: 100%;
+    height: 127px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 248, 255);
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -107,9 +107,10 @@ body {
     
 }
 
-.btn-login a:link{
+.btn-login a{
     text-decoration: none;
-    
+    padding: 16px 0px;
+    margin: 25px;
 }
 
 
