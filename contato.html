@@ -36,44 +36,22 @@
     <div class="embrulho">
         <form>
             <h1>Entre em contato conosco!</h1>
-            <legend>dados do usuario</legend>
-            <label for="nome">Nome: </label>
-            <input type="text" name="nome">
             <br>
-            <label for="sobrenome">Sobrenome:</label>
-            <input type="text" name="sobrenome">
+            <legend>Dados do Usuário:</legend>
+            <br><br>
+            <label for="nome" >Nome:</label>
+            <input type="text" name="nome"class="tela">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email"class="tela">
+            <br><br>
+            <label for="texto">Escreva suas críticas e seus comentários  aqui:</label>
             <br>
-            <label for="senha">Idade:</label>
-            <input type="password" name="senha">
-            </fieldset>
+            <textarea name="texto" cols="30" rows="10" class="assunto"></textarea>
             <br><br>
-            <label for="ano">Selecione uma opção:</label>
-            <br>
-            <input type="radio" name="ano" checked>1º ano
-            <input type="radio" name="ano">2º ano
-            <input type="radio" name="ano">3º ano
-            <br><br>
-            <label for="Diversão">Selecione itens:</label>
-            <br>
-            <input type="checkbox" name="filme" checked>Filme
-            <input type="checkbox" name="serie" checked>Série
-            <input type="checkbox" name="anime" checked>Anime
-            <br><br>
-            <label for="texto">Escreva aqui:</label>
-            <br>
-            <textarea name="texto" cols="30" rows="10"></textarea>
-            <br><br>
-            <label for="itens">Selecione:</label>
-            <select name="itens">
-                <option value="" selected></option>
-                <option value="teste">Teste</option>
-                <option value="prova">Prova</option>
-                <option value="recuperação">Recuperação</option>
-                <option value="trabalho">Trabalho</option>
-            </select>
-            <br><br>
-            <input type="submit" value="enviar" name="enviar">
-            <input type="reset" value="Limpar" name="limpar">
+            
+            <input type="submit" value="Enviar" name="enviar" class="butao">
+            
         </form>
     </div>
 </body>
