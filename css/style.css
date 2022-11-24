@@ -222,29 +222,38 @@ footer.rodape_historia{
     padding: 10px;
 }
 
+.mainSobre
+{
+    font-size: 30px;
+    position: relative;
+    top: 130px;
+    right: 0px;
+    color: #b3c2ff;
+}
 
+.sobre
+{
+    background: linear-gradient(#2b134b, #5F75D2,#5F75D2);
+    position: relative;
+    height: 1800px;
+}
 
+.sobreH1
+{
+    padding-bottom: 50px;
+    padding-left: 240px;
+    color: #93A2E0;
+    font-size: 100px;
+}
 
+.fotoSobre{
+    width: 1200px;
+    height: 500px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+figcaption{
+    font-size: 20px;
+}
 
 /* CARROSEL */
 
