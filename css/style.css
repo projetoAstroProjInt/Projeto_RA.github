@@ -222,8 +222,18 @@ footer.rodape_historia{
     padding: 10px;
 }
 
-
-
+.mainSobre{
+    font-size: 30px;
+    position: relative;
+    top: 180px;
+    right: 0px;
+    color: #b7c5ff;
+}
+.sobre{
+    background: linear-gradient(#2b134b, #5F75D2);
+    position: relative;
+    height: 7450px;
+}
 
 .fotoSobre{
     width: 1200px;
