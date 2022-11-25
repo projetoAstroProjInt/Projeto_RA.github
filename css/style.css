@@ -194,7 +194,7 @@ overflow: hidden;
 {
     background: linear-gradient(#2b134b, #5F75D2,#5F75D2, #93A2E0, #93A2E0, #93A2E0);
     position: relative;
-    height: 7450px;
+    height: 8150px;
 }
 
 .exploreH1
@@ -243,6 +243,48 @@ footer.rodape_historia{
 figcaption{
     font-size: 20px;
 }
+
+
+.imgHist{
+    width: 650px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* CARROSEL */
 
