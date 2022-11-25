@@ -16,13 +16,13 @@ body {
     background: rgba(255, 255, 255, 0.30);
     border: 2px solid rgba(255, 255, 255, 0.34);
     flex-basis: 400px;
-    height: 630px;
+    height: 650px;
     padding: 20px 35px;
     color:#ffffff ;
     text-align: center;
     margin-left: 600px;
     margin-right: 600px;
-    margin-top: 120px;
+    margin-top: -100px;
     flex-wrap: wrap;
     background: linear-gradient(#2b134b7e, #3a65b483, #5b27887a);
 }
@@ -31,10 +31,10 @@ body {
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(255, 255, 255, 0.75);
-    border: 2px solid rgb(247, 243, 243);
+    border: 2px solid rgba(247, 243, 243, 0.452);
     border-radius: 12px;
     box-shadow: 0 4px 10px;
-    font-size: 27px;
+    font-size: 15px;
     overflow: auto;
     padding: 10px;
     text-align: left;
@@ -62,7 +62,7 @@ body {
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.01);
     color: #fff;
-    background:#2b134b;;
+    background:#2b134b93;
 }
 
 .butao:last-child:hover{
@@ -87,5 +87,35 @@ body {
     overflow: auto;
     padding: 10px;
     text-align: left;
-    width: 358px;
+    width: 400px;
+}
+
+
+.left-cont{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-cont-image {
+    width: 25vw;
+}
+
+.rigth-login{
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-cont {
+    width: 99vw;
+    height: 90vh;
+    background: linear-gradient(#2b134b, #3A64B4, #5B2788);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
