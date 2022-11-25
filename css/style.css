@@ -194,7 +194,7 @@ overflow: hidden;
 {
     background: linear-gradient(#2b134b, #5F75D2,#5F75D2, #93A2E0, #93A2E0, #93A2E0);
     position: relative;
-    height: 8030px;
+    height: 8100px;
 }
 
 .exploreH1
@@ -207,7 +207,7 @@ overflow: hidden;
 
 .exploreH3
 {
-    color: black;
+    color: #aabbfd;
     padding-left: 0px;
     font-size: 40px;
 }
@@ -233,6 +233,7 @@ footer.rodape_historia{
     background: linear-gradient(#2b134b, #5F75D2);
     position: relative;
     height: 1600px;
+    
 }
 
 .fotoSobre{
