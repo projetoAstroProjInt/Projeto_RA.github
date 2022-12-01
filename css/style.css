@@ -188,11 +188,12 @@ overflow: hidden;
     position: relative;
     top: 180px;
     right: 0px;
+    text-align: justify;
 }
 
 .mainHistoria
 {
-    background: linear-gradient(#2b134b, #5F75D2,#5F75D2, #93A2E0, #93A2E0, #93A2E0);
+    background: linear-gradient(#2b134b,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0, #5F75D2,#5F75D2,#5F75D2,#5F75D2, #93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0,#93A2E0, #93A2E0, #93A2E0);
     position: relative;
     height: 8100px;
 }
@@ -201,13 +202,13 @@ overflow: hidden;
 {
     padding-bottom: 65px;
     padding-left: 250px;
-    color: #93A2E0;
+    color: #000000;
     font-size: 100px;
 }
 
 .exploreH3
 {
-    color: #aabbfd;
+    color: #000000;
     padding-left: 0px;
     font-size: 40px;
 }
@@ -249,6 +250,8 @@ figcaption{
 .imgHist{
     width: 650px;
     margin-left: 200px;
+    border-radius: 10px;
+    border: #000000, 10px;
 }
 
 .mapaPlanos
